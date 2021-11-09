@@ -29,8 +29,9 @@ background: #fff;padding: 4px 14px;font-size: 15px;}
 
 /* ------- DESTAQUES --------- */
 .destaque h2{
+margin: 50px;
 text-align: center;
-font-size: 24px;
+font-size: 30px;
 font-weight: bold;
 }
         
@@ -41,24 +42,41 @@ font-size: 14px;
 margin: 30px auto;
 }
         
-.destaque figcaption{
-font-size: 18 px;
-justify-content: center;
-display: flex;
-padding-bottom: 40px;
+/* ---- CARROSEL ---- */
+
+.carousel-inner {
+width: 50%;        
+justify-content: center ;
+margin: 50px auto;
+}
+
+/* ---- NOVIDADES ---- */
+
+.novidades{
+background-color: #082373;
+padding: 50px;
 }
         
-.destaque a{
-width: 50%;
-height: 30px;
-justify-content: center;
-display: flex;
+.novidades .text-body{
+width: 80%;
+margin: 70px auto;
+}
+        
+.novidades h2{
+color:#fff;
+font-size: 26px;
+width: 70%;
+}
+        
+.novidades p{
+color:#fff;
+}
+        
+.novidades a{
+color: #000;
 text-decoration: none;
-color:#30dcf4;
-font-size: 18px;
-font-weight: bold;
-margin: 30px auto;
-
+padding: 6px 12px;
+background-color: #fff;
+font-weight: 400;
 }
         
-
